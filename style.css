@@ -1,0 +1,252 @@
+ @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
+ body{
+    font-family: 'Heebo', sans-serif;
+ }
+
+ *{
+    margin: 0;
+    padding:0;
+    list-style:none;
+ }
+
+ .container{
+    max-width: 1152px;
+    max-height: 2041px;
+    margin: 0 auto; 
+  
+ }
+
+ .header .container, .section2 .container, .section3 .container, .section4 .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+ }
+
+
+ .nav-bar ul {
+   display: flex;
+   justify-content: end;
+  
+ }
+
+ .nav-bar ul li a {
+  padding: 27px 33px;
+  text-decoration: none;
+  display: inline-block;
+
+   color: #000;
+   text-align: right;
+   font-size: 20px;
+   font-family: Heebo;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+ }
+
+/* section1 end */
+ .container .s2t{
+   margin-top: 70px;
+   margin-right: 148px;
+   display: flex;
+ }
+
+ .s{
+  
+   margin-right: 115px;
+ }
+
+ .s2h{
+   color: var(--dark-color, #21243D);
+   font-size: 44px;
+   font-family: Heebo;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 60px;
+   margin-bottom: 40px;
+  
+ }
+
+ .s2p{
+   color: var(--dark-color, #21243D);
+   font-size: 16px;
+   font-family: Heebo;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+  
+   text-align: justify;
+ }
+
+ .s2b{
+   color: #FFF;
+   font-size: 20px;
+   font-family: Heebo;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   border-radius: 2px;
+   background: var(--primary, #FF6464);
+
+      width: 167px;
+      height: 21px;
+      padding: 9px 20px 17px 21px;
+      display: block;
+      margin-top: 38px;
+ }
+
+/* section2 end */
+ 
+ .s3{
+  margin-right: 148px;
+ }
+ .s3c{
+  background: #EDF7FA;
+  margin-top: 78px;
+  height: 326px;
+ }
+
+  .s3f{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .s3ft{
+  color: var(--dark-color, #21243D);
+font-size: 22px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+margin-right: 830px;
+ }
+
+ .s3st{
+  color: var(--secondry, #00A8CC);
+text-align: right;
+font-size: 16px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+
+ .s3s{
+  width: 418px;
+  height: 195px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+  display: block;
+  padding: 24px 7px 23px 21px ;
+ }
+
+ .s3s1{
+  color: var(--dark-color, #21243D);
+font-size: 26px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+
+ .s3s2{
+  color: var(--dark-color, #21243D);
+font-size: 18px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 17px;
+margin-bottom: 11px;
+ }
+
+ .s3s3{
+  color: var(--dark-color, #21243D);
+  font-size: 16px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ }
+
+/* section3 end */
+
+ .s4c{
+  margin-top: 39px;
+ }
+
+.s4tc{
+  margin-left: 18px;
+  margin-bottom: 31px;
+}
+
+ .s4ft{
+  color: var(--dark-color, #21243D);
+font-size: 22px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+ }
+
+ .s4st{
+  color: var(--dark-color, #21243D);
+font-size: 30px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+
+ .s4tt{
+  color: #FFF;
+font-size: 18px;
+font-family: Heebo;
+font-style: normal;
+width: 62px;
+height: 25px;
+flex-shrink: 0;
+border-radius: 16px;
+background: #142850;
+width: 50px;
+height: 25px;
+text-align: center;
+margin-right: 26px;
+ }
+
+ .s42d{
+  display: flex;
+  align-items: center;
+ }
+
+ .s44t{
+  color: var(--light, #8695A4);
+font-size: 20px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+
+ .s4fft{
+  color: var(--dark-color, #21243D);
+font-size: 16px;
+font-family: Heebo;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 148px;
+ }
+
+ .hr{
+  width: 1000px;
+margin-left: 100px;
+margin-bottom: 10px;
+}
+
+/* section4 end */
+
